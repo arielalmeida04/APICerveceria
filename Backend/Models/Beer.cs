@@ -15,7 +15,11 @@ namespace Backend.Models
         public decimal Alcohol {  get; set; }
 
 
-        //Pruebagit
+        
+
+
+
+        //prueba push
         [ForeignKey("BrandId")]
         public virtual Brand Brand { get; set; }
     
