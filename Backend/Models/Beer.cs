@@ -17,9 +17,6 @@ namespace Backend.Models
 
         
 
-
-
-        //prueba push
         [ForeignKey("BrandId")]
         public virtual Brand Brand { get; set; }
     
