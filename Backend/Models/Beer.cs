@@ -15,7 +15,7 @@ namespace Backend.Models
         public decimal Alcohol {  get; set; }
 
 
-        
+
 
         [ForeignKey("BrandId")]
         public virtual Brand Brand { get; set; }
